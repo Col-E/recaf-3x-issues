@@ -1,9 +1,15 @@
 # Recaf 3X 
 
+![preview](media/preview.png)
+
 This repository is a temporary one for staging snapshot previews of the 3X branch. 
 It also helps organize issues by delegating them to one place without cluttering up issues affecting the current 2X ones in the main repo.
 
 The purpose of these snapshot previews is to gather feedback and opinions. Try it out and let us know what you think about it.
+
+## Download
+
+Get it here: [3X Snapshot releases](https://github.com/Col-E/recaf-3x-issues/releases)
 
 ## Important links
 
