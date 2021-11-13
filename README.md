@@ -36,7 +36,7 @@ This table is a _very brief_ overview of the current state of 3X. It does not co
 | Attaching / Agent support   | :x:                | No progress has been put into porting over agent capabilities yet. The way it is done in 2X is quite messy to be fair, and in 3X the plan will be to implement it in a cleaner and more flexible way _(Supporting attaching to even remote processes over a LAN)_. |
 | Decompile support           | :heavy_check_mark: | Decompiler integration is in. Currently only CFR is supported, but adding others is an easy task. Contextual actions are available on classes, fields, and methods assuming the decompiled code is parsable. |
 | Hex editor support          | :heavy_check_mark: | The hex editor has been redesigned from the ground up. It now comes with a string dumper, value inspector, and other helpful tools for class files. |
-| Natives / PE viewer         | :grey_question:    | There is a PE viewer for Windows DLL/EXE files files, most importantly used for looking at imports. ELF support still pending. |
+| Natives / PE/ELF viewer     | :heavy_check_mark: | There is support for viewing both PE headers _(DLL/EXE, most useful for imported functions)_ and ELF headers. |
 | Inheritance graphing        | :heavy_check_mark: | When viewing a class you can see its parent and child classes/interfaces |
 | Manual remapping support    | :heavy_check_mark: | Remapping is internally supported and integrated. Right clicking on classes/fields/methods allows renaming of each item. |
 | Automated remapping support | :x:                | Batch remapping from mapping files is not yet implemented. Each file format will need to be ported over to the new system. |
