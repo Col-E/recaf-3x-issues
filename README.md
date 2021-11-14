@@ -39,7 +39,7 @@ This table is a _very brief_ overview of the current state of 3X. It does not co
 | Natives / PE/ELF viewer     | :heavy_check_mark: | There is support for viewing both PE headers _(DLL/EXE, most useful for imported functions)_ and ELF headers. |
 | Inheritance graphing        | :heavy_check_mark: | When viewing a class you can see its parent and child classes/interfaces |
 | Manual remapping support    | :heavy_check_mark: | Remapping is internally supported and integrated. Right clicking on classes/fields/methods allows renaming of each item. |
-| Automated remapping support | :x:                | Batch remapping from mapping files is not yet implemented. Each file format will need to be ported over to the new system. |
+| Automated remapping support | :grey_question:                | Batch remapping from mapping files is partially implemented. File formats will need to be ported over to the new system and exporting has yet to be implemented. |
 | Persistent config           | :heavy_check_mark: | The system for saving configuration values is done. Some UI elements are missing though. |
 | Dockable panels             | :heavy_check_mark: | In 3X all tabs have built in docking support. You can drag a tab out of the window to create a new window, snap tabs to split a window into halves, and more. |
 | Phantom class generation    | :heavy_check_mark: | The feature that lets you generate missing classes _(Used heavily to enable compiling against code you don't have)_ is fully ported over. |
