@@ -44,6 +44,6 @@ This table is a _very brief_ overview of the current state of 3X. It does not co
 | Dockable panels             | :heavy_check_mark: | In 3X all tabs have built in docking support. You can drag a tab out of the window to create a new window, snap tabs to split a window into halves, and more. |
 | Phantom class generation    | :heavy_check_mark: | The feature that lets you generate missing classes _(Used heavily to enable compiling against code you don't have)_ is fully ported over. |
 | Custom themes               | :x:                | No progress has been put into supporting changing the default dark theme yet. |
-| Custom translations         | :x:                | No progress has been put into porting non-English translations over to the new 3X strings. |
+| Custom translations         | :heavy_check_mark: | Multiple languages are almost fully translated and swapping between them has been implemented. |
 | Plugin support              | :grey_question:    | The plugin API has been fleshed out, but not implemented into the UI. Hopefully once it is completed you will be able to more easily load and unload plugins _(And browse existing supported plugins)_. |
 | Script support              | :x:                | The basic outline of how different launch types has been laid out _(GUI vs Headless)_. Beyond that, no work has been made on the headless mode and scripting support. |
