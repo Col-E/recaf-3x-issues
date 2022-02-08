@@ -20,7 +20,7 @@ Get it here: [3X Snapshot releases](https://github.com/Col-E/recaf-3x-issues/rel
 ## FAQ
 
 * Is 3X usable right now?
-    * Technically yes, but its missing a lot of core features. 
+    * Technically yes, but its missing a few of the core features. 
 * When will 3X be done?
     * Projects like this are never _"done"_. They just improve with time. That being said, 3.0.0 will be released when all of the basic features are implemented. 
 
