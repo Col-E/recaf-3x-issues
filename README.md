@@ -46,4 +46,4 @@ This table is a _very brief_ overview of the current state of 3X. It does not co
 | Custom themes               | :x:                | No progress has been put into supporting changing the default dark theme yet. |
 | Custom translations         | :heavy_check_mark: | Multiple languages are almost fully translated and swapping between them has been implemented. |
 | Plugin support              | :grey_question:    | The plugin API has been fleshed out, but not implemented into the UI. Hopefully once it is completed you will be able to more easily load and unload plugins _(And browse existing supported plugins)_. |
-| Script support              | :x:                | The basic outline of how different launch types has been laid out _(GUI vs Headless)_. Beyond that, no work has been made on the headless mode and scripting support. |
+| Script support              | :heavy_check_mark: | The script menu lets you edit/load files and execute them using Beanshell. `-s <file>` command line flag runs a script on startup. |
