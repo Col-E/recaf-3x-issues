@@ -31,7 +31,7 @@ This table is a _very brief_ overview of the current state of 3X. It does not co
 | Feature Name                | Completed?         | Progress                                                     |
 | --------------------------- | ------------------ | ------------------------------------------------------------ |
 | Assembler                   | :heavy_check_mark: | Mostly complete, some quality of life and other fixes still pending.           |
-| Android support             | :grey_question:    | Some basic outline of android support exists, but has not been integrated into the UI significantly. You can open APK files, but there is no editing support at the moment. |
+| Android support             | :grey_question:    | Basic Android support exists for APK files, but a lot of the UI has not been fully integrated, so there's some menus that do not function. |
 | Compiler support            | :heavy_check_mark: | Classes in the workspace can be modified via decompiling and recompiling. |
 | Attaching / Agent support   | :x:                | No progress has been put into porting over agent capabilities yet. The way it is done in 2X is quite messy to be fair, and in 3X the plan will be to implement it in a cleaner and more flexible way _(Supporting attaching to even remote processes over a LAN)_. |
 | Decompile support           | :heavy_check_mark: | Decompiler integration is in. Currently only CFR is supported, but adding others is an easy task. Contextual actions are available on classes, fields, and methods assuming the decompiled code is parsable. |
