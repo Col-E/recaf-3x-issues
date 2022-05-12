@@ -20,9 +20,9 @@ Get it here: [3X Snapshot releases](https://github.com/Col-E/recaf-3x-issues/rel
 ## FAQ
 
 * Is 3X usable right now?
-    * Technically yes, but its missing a few of the core features. 
+    * Yes, but its missing a few important features and needs to go through testing in order to catch bugs prior to an official release
 * When will 3X be done?
-    * Projects like this are never _"done"_. They just improve with time. That being said, 3.0.0 will be released when all of the basic features are implemented. 
+    * Projects like this are never _"done"_. They just improve with time. That being said, 3.0.0 will be released when all of the basic features are implemented and no obvious bugs appear during regular usage.
 
 ## Progress
 
@@ -45,5 +45,6 @@ This table is a _very brief_ overview of the current state of 3X. It does not co
 | Phantom class generation    | :heavy_check_mark: | The feature that lets you generate missing classes _(Used heavily to enable compiling against code you don't have)_ is fully ported over. |
 | Custom themes               | :x:                | No progress has been put into supporting changing the default dark theme yet. |
 | Custom translations         | :heavy_check_mark: | Multiple languages are almost fully translated and swapping between them has been implemented. |
+| Virtualization              | :heavy_check_mark: | Virtualization driven method call simulation and code deobfuscation are available in the UI. |
 | Plugin support              | :grey_question:    | The plugin API has been fleshed out, but not implemented into the UI. Hopefully once it is completed you will be able to more easily load and unload plugins _(And browse existing supported plugins)_. |
 | Script support              | :heavy_check_mark: | The script menu lets you edit/load files and execute them using Beanshell. `-s <file>` command line flag runs a script on startup. |
