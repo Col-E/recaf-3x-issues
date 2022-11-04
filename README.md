@@ -23,6 +23,19 @@ Get it here: [3X Snapshot releases](https://github.com/Col-E/recaf-3x-issues/rel
     * Yes, but we're going through testing of the main features in order to catch bugs prior to an official release
 * When will 3X be done?
     * Projects like this are never _"done"_. They just improve with time. That being said, 3.0.0 will be released when all of the basic features are implemented and no obvious bugs appear during regular usage.
+    * The major remaining components needing bug-testing and validation are: Instrumentation (Agent/attach), SSVM
+    * Documentation for 3X needs to be created over on [Recaf Documentation](https://github.com/Col-E/Recaf-documentation)
+* What will the 2X --> 3X update process look like?
+    * We will create a final 2X release that will change the update process to do the following:
+        * Notify that the next update to 3X will bring significant changes _(But in a good way)_
+        * Notify that Java 11 is required _(Skipped if user is on Java 11 already)_
+            * Warn about `JAVA_HOME` in addition to current JVM if they are not the same path.
+        * Prompt to update to 3X, or to ignore the update all together.
+        * Upon acceptance, setup usage of the Recaf 3X launcher instead of Recaf 3X directly so that the update process is handled externally
+        * Close 2X, run the new launcher.
+    * In case the user uses an old version, its really on them if the update process doesn't work. 
+        * It will attempt to do `java -jar <recaf>` on the new jar, which should work if they're already on Java 11. Though they will not be using the launcher in this case.
+        * If they are on Java 8, it will probably fail in some regard and be up to the user to resolve.
 
 ## Progress
 
