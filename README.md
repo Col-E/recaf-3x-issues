@@ -1,5 +1,10 @@
 # Recaf 3X 
 
+> ## ▶️ [Supersceded by 4x](https://github.com/Col-E/Recaf/tree/dev4) ◀️
+> Recaf 4X combines a backend rewrite and the new features introduced in 3X and puts them together.
+> 
+> Work going forward will only be on 4X. Effort is being put into getting it up-to-par with where 3X left off ASAP.
+
 ![preview](media/preview.png)
 
 This repository is a temporary one for staging snapshot previews of the 3X branch. 
